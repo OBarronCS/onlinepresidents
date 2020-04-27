@@ -2,8 +2,6 @@ import threading
 
 import time, random, deck
 
-from application import destroy_game
-
 get_current_time_in_ms = lambda: int(round(time.time() * 1000))
 
 import player as playerclass
