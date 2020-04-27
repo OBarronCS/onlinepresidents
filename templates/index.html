@@ -6,10 +6,10 @@
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <script type="text/javascript" src="{{url_for('static',filename='js/lib/socket.io.js')}}"></script>
     <script src="{{url_for('static',filename='js/lib/pixi.min.js')}}"></script>
-    <script src="{{url_for('static',filename='js/lib/Pixi.TextInput.min.js')}}"></script>
+    <script src="{{url_for('static',filename='js/lib/pixi.textinput.min.js')}}"></script>
   
     <!-- Game Starts Running Here -->
-    <script type="module" src="{{url_for('static',filename='js/app.js', ver=timestamp)}}"></script>
+    <script type="module" src="{{url_for('static',filename='js/app.js')}}"></script>
   </head>
   <body>
     <div id="display"></div>
