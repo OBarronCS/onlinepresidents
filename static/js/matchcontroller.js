@@ -483,10 +483,10 @@ export default class MatchConnection {
             const cards = message["cards"]
 
 
-            const _x = window.renderer.getPercentWidth(.5) - (cards.length * 53 / 2)
+            const _x = window.renderer.getPercentWidth(.5) - (cards.length * 40 / 2)
             const _y = 90
 
-            const dis = 53
+            const dis = 40
 
             let i;
             for(i = 0; i < cards.length; i++){
